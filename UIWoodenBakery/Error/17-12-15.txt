@@ -1,0 +1,860 @@
+
+Log Entry : 
+12/17/2015 15:08:45
+Error in: http://localhost:6080/Login.aspx. Error Message:Cannot insert explicit value for identity column in table 'U_SESSION' when IDENTITY_INSERT is set to OFF.
+__________________________
+
+Log Entry : 
+12/17/2015 15:08:49
+Error in: http://localhost:6080/Login.aspx. Error Message:Cannot insert explicit value for identity column in table 'U_SESSION' when IDENTITY_INSERT is set to OFF.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:01
+Error in: http://localhost:6080/Login.aspx. Error Message:Cannot access a closed file.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:33
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:33
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:33
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:34
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:37
+Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:38
+Error in: http://localhost:6080/Images/GressenHover.png. Error Message:Error in: http://localhost:6080/Images/GressenHover.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:42
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:42
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:42
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:43
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:10:47
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:14:46
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:14:49
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:14:57
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:15:20
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:15:26
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:20:49
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:20:49
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:20:49
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:20:52
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:21:01
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:23:00
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:23:00
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:23:37
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:23:37
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:23:38
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 15:23:38
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:23:47
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:25:15
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:25:15
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:25:15
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:25:16
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:25:18
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:25:24
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:25:41
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:32:19
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:32:48
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:32:48
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:32:48
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 15:32:50
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:32:52
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:34:09
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:34:09
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:34:09
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:34:10
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:35:22
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:35:29
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:35:31
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:35:33
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:23
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:24
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:24
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:24
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:51
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:52
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:52
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:52
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:58
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:37:59
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:46
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:46
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:46
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:47
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:48
+Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:49
+Error in: http://localhost:6080/Images/GressenHover.png. Error Message:Error in: http://localhost:6080/Images/GressenHover.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:52
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:52
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:52
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 15:44:53
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:45:23
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:45:23
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:45:23
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 15:45:24
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:45:31
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:45:35
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:The IListSource does not contain any data sources.
+__________________________
+
+Log Entry : 
+12/17/2015 15:45:36
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:46:12
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:The IListSource does not contain any data sources.
+__________________________
+
+Log Entry : 
+12/17/2015 15:46:12
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:46:59
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:00
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:00
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:01
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:01
+Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:02
+Error in: http://localhost:6080/Images/GressenHover.png. Error Message:Error in: http://localhost:6080/Images/GressenHover.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:05
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:05
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:05
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:06
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:13
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:47:59
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+12/17/2015 15:50:40
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:15
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:15
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:16
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:16
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:18
+Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:19
+Error in: http://localhost:6080/Images/GressenHover.png. Error Message:Error in: http://localhost:6080/Images/GressenHover.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:21
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:21
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:21
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:22
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:29
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:30
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+12/17/2015 15:59:35
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:14
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:41
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:41
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:41
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:42
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:43
+Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:44
+Error in: http://localhost:6080/Images/GressenHover.png. Error Message:Error in: http://localhost:6080/Images/GressenHover.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:46
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:47
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:47
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:47
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:01:54
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:02:00
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Server cannot set content type after HTTP headers have been sent.
+__________________________
+
+Log Entry : 
+12/17/2015 16:02:53
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:02:53
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:02:53
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 16:02:54
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:03:00
+Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:03:09
+Error in: http://localhost:6080/Images/GressenHover.png. Error Message:Error in: http://localhost:6080/Images/GressenHover.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:03:11
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:03:11
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:03:11
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:The process cannot access the file 'E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\UIWoodenBakery\Error\17-12-15.txt' because it is being used by another process.
+__________________________
+
+Log Entry : 
+12/17/2015 16:03:12
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:03:19
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:03:30
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Server cannot set content type after HTTP headers have been sent.
+__________________________
+
+Log Entry : 
+12/17/2015 16:06:55
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:06:55
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:06:55
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:06:55
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:07:37
+Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:07:38
+Error in: http://localhost:6080/Images/GressenHover.png. Error Message:Error in: http://localhost:6080/Images/GressenHover.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:07:41
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:07:41
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:07:41
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:07:42
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:07:48
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:08:02
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+12/17/2015 16:09:34
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Thread was being aborted.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:03
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:03
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:03
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:03
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:11
+Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:12
+Error in: http://localhost:6080/Images/GressenHover.png. Error Message:Error in: http://localhost:6080/Images/GressenHover.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:14
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:15
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:15
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:15
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:46
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:47
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+12/17/2015 16:14:48
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:15:26
+Error in: http://localhost:6080/StofAccounts.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+12/17/2015 16:15:26
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:24
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:24
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:24
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:25
+Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:Error in: http://localhost:6080/Styles/images/Bottom_texture.jpg. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:25
+Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:Error in: http://localhost:6080/Images/GreenssHovesr.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:26
+Error in: http://localhost:6080/Images/GressenHover.png. Error Message:Error in: http://localhost:6080/Images/GressenHover.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:28
+Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:28
+Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:Error in: http://localhost:6080/~/Scripts/jquery-1.4.1.min.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:28
+Error in: http://localhost:6080/~/Scripts/main.js. Error Message:Error in: http://localhost:6080/~/Scripts/main.js. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:29
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:35
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________
+
+Log Entry : 
+12/17/2015 16:16:49
+Error in: http://localhost:6080/images/h_bg.png. Error Message:Error in: http://localhost:6080/images/h_bg.png. Error Message:File does not exist.
+__________________________

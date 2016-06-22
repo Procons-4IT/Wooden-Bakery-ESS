@@ -1,0 +1,81 @@
+
+Log Entry : 
+06/09/2016 09:45:38
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/09/2016 09:46:27
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/09/2016 09:53:40
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near ",": line 1 col 77 (at pos 77)
+__________________________
+
+Log Entry : 
+06/09/2016 09:53:40
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:ERROR [42000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] Syntax error or access violation;257 sql syntax error: incorrect syntax near ",": line 1 col 77 (at pos 77)
+__________________________
+
+Log Entry : 
+06/09/2016 09:56:13
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/09/2016 10:17:07
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/09/2016 10:17:23
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/09/2016 10:20:08
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/09/2016 10:20:10
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/09/2016 10:20:24
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/09/2016 10:21:45
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/09/2016 10:23:19
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/09/2016 10:24:12
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/09/2016 10:25:38
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/09/2016 12:32:59
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:Error in: http://localhost:6080/CreditMemo.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/09/2016 12:41:54
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________

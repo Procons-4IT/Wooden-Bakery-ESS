@@ -1,0 +1,90 @@
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\bin\Debug\BL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\bin\Debug\BL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\bin\Debug\BL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\bin\Debug\DAL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\bin\Debug\EN.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\bin\Debug\DAL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\bin\Debug\DAL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\bin\Debug\EN.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\bin\Debug\EN.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\obj\Debug\BL.vbprojResolveAssemblyReference.cache
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\obj\Debug\BL.Resources.resources
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\obj\Debug\BL.vbproj.GenerateResource.Cache
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\obj\Debug\BL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\obj\Debug\BL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150828_HANA\WoodenBakery\BL\obj\Debug\BL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\bin\Debug\BL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\bin\Debug\BL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\bin\Debug\BL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\bin\Debug\DAL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\bin\Debug\EN.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\bin\Debug\DAL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\bin\Debug\DAL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\bin\Debug\EN.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\bin\Debug\EN.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\obj\Debug\BL.vbprojResolveAssemblyReference.cache
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\obj\Debug\BL.Resources.resources
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\obj\Debug\BL.vbproj.GenerateResource.Cache
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\obj\Debug\BL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\obj\Debug\BL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20150831\BL\obj\Debug\BL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\bin\Debug\BL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\bin\Debug\BL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\bin\Debug\BL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\bin\Debug\DAL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\bin\Debug\EN.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\bin\Debug\DAL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\bin\Debug\DAL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\bin\Debug\EN.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\bin\Debug\EN.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\obj\Debug\BL.vbprojResolveAssemblyReference.cache
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\obj\Debug\BL.Resources.resources
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\obj\Debug\BL.vbproj.GenerateResource.Cache
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\obj\Debug\BL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\obj\Debug\BL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151214\BL\obj\Debug\BL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\bin\Debug\BL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\bin\Debug\BL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\bin\Debug\BL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\bin\Debug\DAL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\bin\Debug\EN.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\bin\Debug\DAL.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\bin\Debug\DAL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\bin\Debug\EN.pdb
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\bin\Debug\EN.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\obj\Debug\BL.vbprojResolveAssemblyReference.cache
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\obj\Debug\BL.Resources.resources
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\obj\Debug\BL.vbproj.GenerateResource.Cache
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\obj\Debug\BL.dll
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\obj\Debug\BL.xml
+E:\Projects\Web Developments\WoodernBakery\SourceCode\WoodenBakery_20151217\BL\obj\Debug\BL.pdb
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\bin\Debug\BL.dll
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\bin\Debug\BL.pdb
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\bin\Debug\BL.xml
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\bin\Debug\DAL.dll
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\bin\Debug\EN.dll
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\bin\Debug\DAL.pdb
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\bin\Debug\DAL.xml
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\bin\Debug\EN.pdb
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\bin\Debug\EN.xml
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\obj\Debug\BL.vbprojResolveAssemblyReference.cache
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\obj\Debug\BL.Resources.resources
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\obj\Debug\BL.vbproj.GenerateResource.Cache
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\obj\Debug\BL.dll
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\obj\Debug\BL.xml
+C:\Procons\Wooden Bakery\Web Development\SourceCode\WoodenBakery_20151221- HANA\BL\obj\Debug\BL.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\bin\Debug\BL.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\bin\Debug\BL.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\bin\Debug\BL.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\bin\Debug\DAL.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\bin\Debug\EN.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\bin\Debug\DAL.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\bin\Debug\DAL.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\bin\Debug\EN.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\bin\Debug\EN.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\obj\Debug\BL.vbprojResolveAssemblyReference.cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\obj\Debug\BL.Resources.resources
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\obj\Debug\BL.vbproj.GenerateResource.Cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\obj\Debug\BL.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\obj\Debug\BL.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\BL\obj\Debug\BL.pdb

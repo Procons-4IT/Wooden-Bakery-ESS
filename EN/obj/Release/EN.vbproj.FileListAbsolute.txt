@@ -1,0 +1,10 @@
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\bin\Release\EN.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\bin\Release\EN.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\bin\Release\EN.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\obj\Release\Interop.SAPbobsCOM.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\obj\Release\EN.vbproj.ResolveComReference.cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\obj\Release\EN.Resources.resources
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\obj\Release\EN.vbproj.GenerateResource.Cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\obj\Release\EN.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\obj\Release\EN.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\EN\obj\Release\EN.pdb

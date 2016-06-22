@@ -1,0 +1,350 @@
+
+Log Entry : 
+06/08/2016 09:43:02
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:43:02
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:43:02
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:43:26
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:43:26
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:43:29
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:43:29
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:43:30
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:46:07
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:46:07
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:46:08
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:46:08
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:46:09
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:46:48
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/08/2016 09:46:48
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/08/2016 09:46:53
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/08/2016 09:46:53
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/08/2016 09:47:02
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/08/2016 09:47:02
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/08/2016 09:48:48
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:48:48
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:48:48
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:48:49
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_ISRETURN: line 1 col 195 (at pos 194)
+__________________________
+
+Log Entry : 
+06/08/2016 09:49:15
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:Error in: http://localhost:6080/CreditMemo.aspx. Error Message:ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_ISRETURN: line 1 col 195 (at pos 194)
+__________________________
+
+Log Entry : 
+06/08/2016 09:49:16
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_ISRETURN: line 1 col 195 (at pos 194)
+__________________________
+
+Log Entry : 
+06/08/2016 09:49:16
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:Error in: http://localhost:6080/CreditMemo.aspx. Error Message:ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;260 invalid column name: U_ISRETURN: line 1 col 195 (at pos 194)
+__________________________
+
+Log Entry : 
+06/08/2016 09:53:15
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:53:15
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:53:15
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:53:20
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:53:20
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:53:22
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:53:22
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:53:22
+Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 09:53:34
+Error in: http://localhost:6080/CreditMemo.aspx/GetItems. Error Message:Error in: http://localhost:6080/CreditMemo.aspx/GetItems. Error Message:Unknown web method GetItems.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 10:07:07
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'Panel1' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:07:38
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'Panel1' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:09:48
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'Panel1' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:10:54
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'Panel1' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:11:10
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'Panel1' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:13:50
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Update the exchange rate  , 'USD'  [الرسالة 131-6]
+__________________________
+
+Log Entry : 
+06/08/2016 10:17:52
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'panAdd' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:17:59
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'panAdd' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:18:43
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'panAdd' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:18:46
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'panAdd' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:19:48
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'Panel1' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:19:51
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The DefaultButton of 'Panel1' must be the ID of a control of type IButtonControl.
+__________________________
+
+Log Entry : 
+06/08/2016 10:29:47
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Update the exchange rate  , 'USD'  [الرسالة 131-6]
+__________________________
+
+Log Entry : 
+06/08/2016 10:48:14
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Update the exchange rate  , 'USD'  [الرسالة 131-6]
+__________________________
+
+Log Entry : 
+06/08/2016 11:18:28
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Error in: http://localhost:6080/SalesOrder.aspx. Error Message:The tag contains duplicate 'OnTextChanged' attributes.
+__________________________
+
+Log Entry : 
+06/08/2016 11:20:51
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/08/2016 11:27:45
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/08/2016 11:30:44
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:30:45
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:30:53
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:30:54
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:30:54
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:31:07
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:31:08
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:31:09
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:31:09
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:31:16
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/08/2016 11:33:27
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
