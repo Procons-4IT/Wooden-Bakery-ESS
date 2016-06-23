@@ -85,10 +85,10 @@
                             <tr>
                                 <td>
                                     <asp:Panel ID="panelhome" runat="server" Width="100%">
-                                        <asp:ImageButton ID="btnhome" runat="server" ImageUrl="~/images/Homeicon.jpg" PostBackUrl="~/Home.aspx"
-                                            ToolTip="Home" />
+                                        <asp:ImageButton ID="btnhome" runat="server" ImageUrl="~/images/Homeicon.jpg" 
+                                            ToolTip="Home"  />
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <asp:ImageButton ID="btnnew" runat="server" ImageUrl="~/images/Add.jpg" ToolTip="Add new record" />
+                                        <asp:ImageButton ID="btnnew" runat="server" ImageUrl="~/images/Add.jpg" ToolTip="Add new record"  />
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     </asp:Panel>
                                     <asp:Label ID="Label2" runat="server" Text="" Style="color: Red;"></asp:Label>
@@ -489,7 +489,7 @@
                                                                             <td>Return UoM
                                                                             </td>
                                                                             <td>
-                                                                                <asp:DropDownList ID="ddlUoM" CssClass="txtbox1" Width="100px" runat="server" Enabled="false">
+                                                                                <asp:DropDownList ID="ddlUoM" CssClass="txtbox1" Width="100px" runat="server">
                                                                                 </asp:DropDownList>
                                                                             </td>
                                                                             <td>Quantity

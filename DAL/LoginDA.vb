@@ -38,6 +38,20 @@ Public Class LoginDA
             Throw ex
         End Try
     End Function
+    Public Function GetCustPriceList(ByVal objen As LoginEN) As String
+        Try
+            ComVar.SqlCon.Open()
+            ComVar.StrQuery = "select IFNULL(""ListNum"",0) from " & ObjDA.DBName & ".OCRD where ""CardCode""='" & objen.CustomerCode & "'"
+            ComVar.SqlCmd = New OdbcCommand(ComVar.StrQuery, ComVar.SqlCon)
+            ComVar.SqlCmd.CommandType = CommandType.Text
+            ComVar.ReturnValue = ComVar.SqlCmd.ExecuteScalar()
+            ComVar.SqlCon.Close()
+            Return ComVar.ReturnValue
+        Catch ex As Exception
+            DBConnectionDA.WriteError(ex.Message)
+            Throw ex
+        End Try
+    End Function
     Public Function SessionDetails(ByVal CustCode As String) As Integer
         Try
             Dim exists As Integer = 0

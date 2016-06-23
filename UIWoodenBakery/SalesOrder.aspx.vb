@@ -30,15 +30,17 @@ Public Class SalesOrder
                     PanelNewRequest.Visible = False
                     lblcardCode.Text = Session("UserCode").ToString()
                     lblCardName.Text = Session("UserName").ToString()
-                    ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "'", grdItems)
+                    ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and T1.""SellItem""='Y'", grdItems)
                     ObjDA.BindDropdown("select ""CntctCode"",""Name""  from " & DBName & ".OCPR where ""CardCode""='" & Session("UserCode").ToString() & "' order by ""CntctCode""", "CntctCode", "Name", ddlconPerson)
-                    ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""CardCode"" ='" & Session("UserCode").ToString() & "'", GridView1)
+                    ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""CardCode"" ='" & Session("UserCode").ToString() & "' order by ""DocEntry"" desc", GridView1)
+                    ObjDA.BindDropdown("select T1.""FldValue"",T1.""Descr""  from " & DBName & ".CUFD T0 inner join " & DBName & ".UFD1 T1 on T1.""FieldID""=T0.""FieldID"" and T1.""TableID""=T0.""TableID""   where T0.""TableID""='ORDR' and T0.""AliasID""='Item_Cat'", "FldValue", "Descr", ddlItemCat)
                     ObjEN.CustCode = Session("UserCode").ToString()
                     ObjDA.DeleteTemp(ObjEN)
                     MainGVBind(ObjEN)
-
+                    '   Me.Form.DefaultButton = btnSubmit.UniqueID
                 End If
             End If
+
         Catch ex As Exception
             DBConnectionDA.WriteError(ex.Message)
             ComVar.StrMsg = "alert('" & ex.Message & "')"
@@ -86,8 +88,9 @@ Public Class SalesOrder
                     ' ddlUoM.SelectedItem.Text = lblSalesUom.Text.Trim()
                     ddlUoM.SelectedValue = ddlUoM.Items.FindByText(lblSalesUom.Text.Trim()).Value
                 End If
-                txtPrice.Text = ObjBL.GetPrice(Session("UserCode").ToString(), txtItemCode.Text.Trim(), ddlUoM.SelectedItem.Value)
+                txtPrice.Text = ObjBL.GetPrice(Session("PriceList").ToString(), txtItemCode.Text.Trim(), ddlUoM.SelectedItem.Value)
                 txtQty.Focus()
+                ' Me.Form.DefaultButton = btnSubmit.UniqueID
             End If
         ElseIf txthidoption.Text = "Sales" Then
             If txtpoptno.Text.Trim() <> "" Then
@@ -97,7 +100,7 @@ Public Class SalesOrder
                 DuplicateSalesOrder(strDocEntry)
             End If
         End If
-        ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "'", grdItems)
+        ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and T1.""SellItem""='Y'", grdItems)
     End Sub
     Private Sub btnnew_Click(ByVal sender As Object, ByVal e As ImageClickEventArgs) Handles btnnew.Click
         btnImport.Visible = True
@@ -174,6 +177,7 @@ Public Class SalesOrder
                     ErrorMess(ComVar.StrMsg)
                 End If
                 Clear()
+
             End If
 
         Catch ex As Exception
@@ -226,8 +230,11 @@ Public Class SalesOrder
     End Sub
     Private Function SalesDraft() As String
         Dim strDocNum As String = ""
-        Dim strqty, strcode As String
-        Dim oRec As SAPbobsCOM.Recordset
+        Dim Driver As String = ""
+        Dim BPRoute As String = ""
+        Dim BPSubCat As String = ""
+        Dim strqty, strcode, StUom As String
+        Dim oRec, oTemp, ORecSet As SAPbobsCOM.Recordset
         Dim blnRecordAdded As Boolean = False
         Dim row As GridViewRow
         Try
@@ -237,15 +244,18 @@ Public Class SalesOrder
             ObjEN.SAPCompany = Session("SAPCompany")
             Dim oDrfDoc As SAPbobsCOM.Documents
             oRec = ObjEN.SAPCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+            oTemp = ObjEN.SAPCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+            ORecSet = ObjEN.SAPCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
             oDrfDoc = ObjEN.SAPCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.oDrafts)
 
             For Each row In grdSalesItem.Rows
+                Dim ddluom As DropDownList = DirectCast(row.FindControl("ddlgUoM"), DropDownList)
                 strqty = CType(row.FindControl("lblQty"), TextBox).Text
                 If strqty = "" Then
                     strqty = 0
                 End If
                 strcode = CType(row.FindControl("lblDocNo"), Label).Text
-                ComVar.StrQuery = "Update " & DBName & ".""U_ORDR"" set ""U_Quantity""='" & strqty & "' where ""U_CardCode""='" & lblcardCode.Text.Trim() & "' and ""U_SessionId""='" & Session("SessionId").ToString() & "' and U_DocEntry='" & strcode & "' "
+                ComVar.StrQuery = "Update " & DBName & ".""U_ORDR"" set ""U_Quantity""='" & strqty & "',""U_UomCode""='" & ddluom.SelectedValue & "',""U_UoMName""='" & ddluom.SelectedItem.Text & "' where ""U_CardCode""='" & lblcardCode.Text.Trim() & "' and ""U_SessionId""='" & Session("SessionId").ToString() & "' and U_DocEntry='" & strcode & "' "
                 oRec.DoQuery(ComVar.StrQuery.ToUpper())
             Next
 
@@ -257,6 +267,26 @@ Public Class SalesOrder
             oDrfDoc.TaxDate = dtDoc
             oDrfDoc.UserFields.Fields.Item("U_Z_Source").Value = "W"
             oDrfDoc.UserFields.Fields.Item("U_Z_Noofdays").Value = ObjDA.getNodays(dtPost, dtDel) ' lblNodays.Text.Trim()
+            Try
+                oDrfDoc.UserFields.Fields.Item("U_Item_Cat").Value = ddlItemCat.SelectedValue
+            Catch ex As Exception
+            End Try
+            ComVar.StrQuery = "SELECT * FROM " & DBName & ".OCRD T0 WHERE T0.""CardCode""='" & lblcardCode.Text.Trim() & "'"
+            ORecSet.DoQuery(ComVar.StrQuery)
+            If ORecSet.RecordCount > 0 Then
+                Try
+                    Driver = ORecSet.Fields.Item("U_Driver").Value
+                Catch ex As Exception
+                End Try
+                Try
+                    BPSubCat = ORecSet.Fields.Item("U_SubSubCategory").Value
+                Catch ex As Exception
+                End Try
+                Try
+                    BPRoute = ORecSet.Fields.Item("U_Cust_Route").Value
+                Catch ex As Exception
+                End Try
+            End If
 
             ComVar.StrQuery = "Select ""U_ItemCode"",""U_Quantity"",""U_UoMName"",""U_ShpDate"",IFNULL(""U_UomCode"",''),""U_Price"",""U_LineNodays"" from " & DBName & ".""U_ORDR"" where ""U_CardCode""='" & lblcardCode.Text.Trim() & "' and ""U_SessionId""='" & Session("SessionId").ToString() & "' and ""U_Quantity"" > 0"
             oRec.DoQuery(ComVar.StrQuery.ToUpper())
@@ -275,6 +305,59 @@ Public Class SalesOrder
                         oDrfDoc.Lines.UoMEntry = oRec.Fields.Item(4).Value
                     End If
 
+                    Try
+                        oDrfDoc.Lines.UserFields.Fields.Item("U_Cust_Driver").Value = Driver
+                    Catch ex As Exception
+                    End Try
+                    Try
+                        oDrfDoc.Lines.UserFields.Fields.Item("U_Cust_Route").Value = BPRoute
+                    Catch ex As Exception
+                    End Try
+                    Try
+                        oDrfDoc.Lines.CostingCode2 = BPSubCat
+                    Catch ex As Exception
+                    End Try
+                    Try
+                        oDrfDoc.Lines.UserFields.Fields.Item("U_Item_Cat").Value = ddlItemCat.SelectedValue
+                    Catch ex As Exception
+                    End Try
+
+                    ComVar.StrQuery = "SELECT * FROM " & DBName & ".OITM T0 WHERE T0.""ItemCode""='" & oRec.Fields.Item(0).Value & "'"
+                    oTemp.DoQuery(ComVar.StrQuery)
+                    If oTemp.RecordCount > 0 Then
+                        Try
+                            oDrfDoc.Lines.UserFields.Fields.Item("U_Item_SubGrp1").Value = oTemp.Fields.Item("U_Item_SubGrp1").Value
+                        Catch ex As Exception
+                        End Try
+                        Try
+                            oDrfDoc.Lines.UserFields.Fields.Item("U_Item_SubGrp2").Value = oTemp.Fields.Item("U_Item_SubGrp2").Value
+                        Catch ex As Exception
+                        End Try
+                        Try
+                            oDrfDoc.Lines.UserFields.Fields.Item("U_Item_SubGrp3").Value = oTemp.Fields.Item("U_Item_SubGrp3").Value
+                        Catch ex As Exception
+                        End Try
+                        Try
+                            oDrfDoc.Lines.UserFields.Fields.Item("U_Item_SubGrp4").Value = oTemp.Fields.Item("U_Item_SubGrp4").Value
+                        Catch ex As Exception
+                        End Try
+                        Try
+                            oDrfDoc.Lines.UserFields.Fields.Item("U_Item_SubGrp5").Value = oTemp.Fields.Item("U_Item_SubGrp5").Value
+                        Catch ex As Exception
+                        End Try
+                        Try
+                            oDrfDoc.Lines.UserFields.Fields.Item("U_Shelf").Value = oTemp.Fields.Item("U_Shelf").Value
+                        Catch ex As Exception
+                        End Try
+                        Try
+                            oDrfDoc.Lines.CostingCode = oTemp.Fields.Item("U_CostCenter").Value
+                        Catch ex As Exception
+                        End Try
+                        Try
+                            oDrfDoc.Lines.UserFields.Fields.Item("U_Item_Grp").Value = oTemp.Fields.Item("U_Item_Grp").Value
+                        Catch ex As Exception
+                        End Try
+                    End If
                     blnRecordAdded = True
                     oRec.MoveNext()
                 Next
@@ -304,7 +387,7 @@ Public Class SalesOrder
             ComVar.StrMsg = "alert('" & ex.Message & "')"
             ErrorMess(ComVar.StrMsg)
         End Try
-        Return "Success"
+        ' Return "Success"
     End Function
     Private Sub btncancel_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btncancel.Click
         panelview.Visible = True
@@ -409,10 +492,25 @@ Public Class SalesOrder
                 Dim cell As TableCell = e.Row.Cells(4)
                 Dim lblqty As TextBox = DirectCast(e.Row.FindControl("lblQty"), TextBox)
                 Dim lbltranscur As Label = DirectCast(e.Row.FindControl("lblPrice"), Label)
+                Dim lblItemCode As Label = DirectCast(e.Row.FindControl("lblItCode"), Label)
+                Dim ddlGUom As DropDownList = DirectCast(e.Row.FindControl("ddlgUoM"), DropDownList)
+                Dim lbluom As Label = DirectCast(e.Row.FindControl("lblUom"), Label)
                 Dim dblqty As Double = CDbl(lblqty.Text.Trim())
                 If dblqty = 0 Then
-                    lblqty.BackColor = Color.Red
+                    lblqty.BackColor = Color.White
                 End If
+
+                ObjDA.BindDropdown("SELECT  T2.""UomEntry"" as ""UomEntry"", T3.""UomCode"" as ""UomCode"" FROM " & DBName & ".OITM T0 INNER JOIN " & DBName & ".OUGP T1 ON T0.""UgpEntry"" = T1.""UgpEntry"" INNER JOIN " & DBName & ".UGP1 T2 ON T1.""UgpEntry"" = T2.""UgpEntry"" INNER JOIN " & DBName & ".OUOM T3 ON T3.""UomEntry"" = T2.""UomEntry"" WHERE T0.""ItemCode""='" & lblItemCode.Text.Trim().Replace("'", "") & "'", "UomEntry", "UomCode", ddlGUom)
+                'ObjEN.ItemCode = lblItemCode.Text.Trim().Replace("'", "")
+                'lblSalesUom.Text = ObjBL.GetUomName(ObjEN)
+                'If ddlGUom.SelectedItem.Text <> "Manual" And lblSalesUom.Text <> "" Then
+                Try
+                    ddlGUom.SelectedValue = ddlGUom.Items.FindByText(lbluom.Text.Trim()).Value
+                Catch ex As Exception
+                End Try
+
+                'End If
+
                 Dim rowtotal As Decimal = Convert.ToDecimal(lbltranscur.Text.Trim())
                 grdTotal1 = grdTotal1 + rowtotal
             End If
@@ -426,6 +524,38 @@ Public Class SalesOrder
             ErrorMess(ComVar.StrMsg)
         End Try
     End Sub
+    Protected Sub ddlgUoM_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs)
+        Dim oRec As SAPbobsCOM.Recordset
+        Try
+            ObjEN.SAPCompany = Session("SAPCompany")
+            oRec = ObjEN.SAPCompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+            For Each row1 As GridViewRow In grdSalesItem.Rows
+                Dim lblprice As Label = DirectCast(grdSalesItem.Rows(row1.RowIndex).FindControl("lblPrice"), Label)
+                Dim lblitemcode As Label = DirectCast(grdSalesItem.Rows(row1.RowIndex).FindControl("lblItCode"), Label)
+                Dim ddluom As DropDownList = DirectCast(grdSalesItem.Rows(row1.RowIndex).FindControl("ddlgUoM"), DropDownList)
+                Dim txtQty As TextBox = DirectCast(grdSalesItem.Rows(row1.RowIndex).FindControl("lblQty"), TextBox)
+
+                Dim lblcode As Label = DirectCast(grdSalesItem.Rows(row1.RowIndex).FindControl("lblDocNo"), Label) ' CType(row.FindControl("lblDocNo"), Label).Text
+                ComVar.StrQuery = "Update " & DBName & ".""U_ORDR"" set ""U_UoMName""='" & ddluom.SelectedItem.Text() & "',""U_UomCode""='" & ddluom.SelectedValue & "' where ""U_CardCode""='" & lblcardCode.Text.Trim() & "' and ""U_SessionId""='" & Session("SessionId").ToString() & "' and U_DocEntry='" & lblcode.Text.Trim() & "' "
+                oRec.DoQuery(ComVar.StrQuery.ToUpper())
+                lblprice.Text = ObjBL.GetPrice(Session("PriceList").ToString(), txtItemCode.Text.Trim().Replace("'", ""), ddluom.SelectedItem.Value)
+                txtQty.Focus()
+            Next
+            Me.Form.DefaultButton = btnAdd.UniqueID
+        Catch ex As Exception
+            DBConnectionDA.WriteError(ex.Message)
+            ComVar.StrMsg = "alert('" & ex.Message & "')"
+            ErrorMess(ComVar.StrMsg)
+        End Try
+        'Try
+        '    txtPrice.Text = ObjBL.GetPrice(Session("UserCode").ToString(), txtItemCode.Text.Trim().Replace("'", ""), ddlUoM.SelectedItem.Value)
+        '    txtQty.Focus()
+        'Catch ex As Exception
+        '    DBConnectionDA.WriteError(ex.Message)
+        '    ComVar.StrMsg = "alert('" & ex.Message & "')"
+        '    ErrorMess(ComVar.StrMsg)
+        'End Try
+    End Sub
     Protected Sub lblQty_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs)
         Dim oRec As SAPbobsCOM.Recordset
 
@@ -436,7 +566,7 @@ Public Class SalesOrder
                 Dim txtCode As TextBox = DirectCast(grdSalesItem.Rows(row1.RowIndex).FindControl("lblQty"), TextBox)
                 Dim dblqty As Double = CDbl(txtCode.Text.Trim())
                 If dblqty = 0 Then
-                    txtCode.BackColor = Color.Red
+                    txtCode.BackColor = Color.White
                 Else
                     txtCode.BackColor = Color.White
                 End If
@@ -446,6 +576,7 @@ Public Class SalesOrder
                 ComVar.StrQuery = "Update " & DBName & ".""U_ORDR"" set ""U_Quantity""='" & dblqty & "' where ""U_CardCode""='" & lblcardCode.Text.Trim() & "' and ""U_SessionId""='" & Session("SessionId").ToString() & "' and U_DocEntry='" & lblcode.Text.Trim() & "' "
                 oRec.DoQuery(ComVar.StrQuery.ToUpper())
             Next
+            Me.Form.DefaultButton = btnAdd.UniqueID
         Catch ex As Exception
             DBConnectionDA.WriteError(ex.Message)
             ComVar.StrMsg = "alert('" & ex.Message & "')"
@@ -469,16 +600,16 @@ Public Class SalesOrder
     End Sub
     Protected Sub btngoItem_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btngoItem.Click
         If txtsearchItem.Text.Trim() <> "" Then
-            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and Upper(T1.""ItemCode"")  like '%" + txtsearchItem.Text.Trim().Replace("'", "''").ToUpper() + "%' order by ""DocEntry"" desc", grdItems)
+            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and T1.""SellItem""='Y' and Upper(T1.""ItemCode"")  like '%" + txtsearchItem.Text.Trim().Replace("'", "''").ToUpper() + "%' order by ""DocEntry"" desc", grdItems)
         ElseIf txtsearchItemNa.Text.Trim() <> "" Then
-            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and Upper(T1.""ItemName"")  like '%" + txtsearchItemNa.Text.Trim().Replace("'", "''").ToUpper() + "%' order by ""DocEntry"" desc", grdItems)
+            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and T1.""SellItem""='Y' and Upper(T1.""ItemName"")  like '%" + txtsearchItemNa.Text.Trim().Replace("'", "''").ToUpper() + "%' order by ""DocEntry"" desc", grdItems)
         Else
-            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "'", grdItems)
+            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and T1.""SellItem""='Y'", grdItems)
         End If
         popemployee.Show()
     End Sub
     Protected Sub lbtpopnview_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles lbtpopnview.Click
-        ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "'", grdItems)
+        ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and T1.""SellItem""='Y'", grdItems)
         popemployee.Show()
     End Sub
 
@@ -512,7 +643,7 @@ Public Class SalesOrder
                         ObjEN.ItemCode = ComVar.SqlDS2.Tables(0).Rows(intRow)("ItemCode").ToString().Trim().Replace("'", "")
                         ObjEN.ItemName = ComVar.SqlDS2.Tables(0).Rows(intRow)("ItemName").ToString().Trim().Replace("'", "")
                         ObjEN.Quantity = 0
-                        ObjEN.Price = ObjBL.GetPrice(Session("UserCode").ToString(), ObjEN.ItemCode, ComVar.SqlDS2.Tables(0).Rows(intRow)("UgpEntry").ToString().Trim().Replace("'", ""))
+                        ObjEN.Price = ObjBL.GetPrice(Session("PriceList").ToString(), ObjEN.ItemCode, ComVar.SqlDS2.Tables(0).Rows(intRow)("UgpEntry").ToString().Trim().Replace("'", ""))
                         ObjEN.FrgName = ComVar.SqlDS2.Tables(0).Rows(intRow)("FrgnName").ToString().Trim().Replace("'", "")
                         ObjEN.UomName = ComVar.SqlDS2.Tables(0).Rows(intRow)("SalUnitMsr").ToString().Trim().Replace("'", "")
                         uomentry = ComVar.SqlDS2.Tables(0).Rows(intRow)("UgpEntry").ToString().Trim().Replace("'", "")
@@ -620,17 +751,17 @@ Public Class SalesOrder
 
     Private Sub Button2_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button2.Click
         If txtDocEntry.Text.Trim() <> "" Then
-            ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""DocEntry"" ='" & txtDocEntry.Text.Trim() & "'", GridView1)
+            ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""DocEntry"" ='" & txtDocEntry.Text.Trim() & "' and ""CardCode"" ='" & Session("UserCode").ToString() & "' order by ""DocEntry"" desc", GridView1)
         ElseIf ddldocStatus.SelectedIndex <> 0 Then
-            ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""DocStatus"" ='" & ddldocStatus.SelectedValue & "'", GridView1)
+            ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""DocStatus"" ='" & ddldocStatus.SelectedValue & "' and ""CardCode"" ='" & Session("UserCode").ToString() & "' order by ""DocEntry"" desc", GridView1)
         Else
-            ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""CardCode"" ='" & Session("UserCode").ToString() & "'", GridView1)
+            ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""CardCode"" ='" & Session("UserCode").ToString() & "' order by ""DocEntry"" desc", GridView1)
         End If
         ModalPopupExtender1.Show()
     End Sub
 
     Private Sub LinkButton1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles LinkButton1.Click
-        ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""CardCode"" ='" & Session("UserCode").ToString() & "'", GridView1)
+        ObjDA.GridviewBind("SELECT ""DocEntry"",CASE ""DocStatus"" when 'C' then 'Closed' else 'Open' end as ""DocStatus"",Cast(""DocDueDate"" as varchar(11)) as ""DocDueDate"" FROM " & DBName & ".ORDR  WHERE ""CardCode"" ='" & Session("UserCode").ToString() & "' order by ""DocEntry"" desc", GridView1)
         ModalPopupExtender1.Show()
     End Sub
 
@@ -733,12 +864,16 @@ Public Class SalesOrder
    
     Private Sub ddlUoM_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlUoM.SelectedIndexChanged
         Try
-            txtPrice.Text = ObjBL.GetPrice(Session("UserCode").ToString(), txtItemCode.Text.Trim().Replace("'", ""), ddlUoM.SelectedItem.Value)
+            txtPrice.Text = ObjBL.GetPrice(Session("PriceList").ToString(), txtItemCode.Text.Trim().Replace("'", ""), ddlUoM.SelectedItem.Value)
             txtQty.Focus()
         Catch ex As Exception
             DBConnectionDA.WriteError(ex.Message)
             ComVar.StrMsg = "alert('" & ex.Message & "')"
             ErrorMess(ComVar.StrMsg)
         End Try
+    End Sub
+
+    Private Sub btnhome_Click(sender As Object, e As ImageClickEventArgs) Handles btnhome.Click
+        Response.Redirect("Home.aspx", False)
     End Sub
 End Class

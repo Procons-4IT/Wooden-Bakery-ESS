@@ -19,6 +19,13 @@ Public Class LoginBL
             Throw ex
         End Try
     End Function
+    Public Function GetCustPriceList(ByVal objen As LoginEN) As String
+        Try
+            Return ObjDA.GetCustPriceList(objen)
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Function
     Public Function SessionDetails(ByVal CustCode As String) As Integer
         Try
             Return objDA.SessionDetails(CustCode)

@@ -12,3 +12,17 @@ C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_
 C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\DAL\obj\Release\DAL.dll
 C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\DAL\obj\Release\DAL.xml
 C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\DAL\obj\Release\DAL.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\bin\Release\DAL.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\bin\Release\DAL.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\bin\Release\DAL.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\bin\Release\EN.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\bin\Release\EN.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\bin\Release\EN.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\obj\Release\DAL.vbprojResolveAssemblyReference.cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\obj\Release\Interop.SAPbobsCOM.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\obj\Release\DAL.vbproj.ResolveComReference.cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\obj\Release\DAL.Resources.resources
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\obj\Release\DAL.vbproj.GenerateResource.Cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\obj\Release\DAL.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\obj\Release\DAL.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160622- HANA\DAL\obj\Release\DAL.pdb

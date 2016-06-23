@@ -1,0 +1,89 @@
+
+Log Entry : 
+06/22/2016 10:38:03
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/22/2016 10:50:51
+Error in: http://localhost:6080/SalesOrder.aspx/GetItems. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItems. Error Message:Unknown web method GetItems.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/22/2016 11:19:27
+Error in: http://localhost:6080/Login.aspx. Error Message:ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: cannot parse the string '' as a number
+__________________________
+
+Log Entry : 
+06/22/2016 11:19:36
+Error in: http://localhost:6080/Login.aspx. Error Message:ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: cannot parse the string '' as a number
+__________________________
+
+Log Entry : 
+06/22/2016 11:20:24
+Error in: http://localhost:6080/Login.aspx. Error Message:ERROR [S1000] [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number: cannot parse the string '' as a number
+__________________________
+
+Log Entry : 
+06/22/2016 12:14:35
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:1470000365 - UoM specified is not assigned to item in row 2
+__________________________
+
+Log Entry : 
+06/22/2016 12:27:47
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:1470000315 - Cannot add or update document; specify a UoM code
+__________________________
+
+Log Entry : 
+06/22/2016 12:30:03
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:1470000315 - Cannot add or update document; specify a UoM code
+__________________________
+
+Log Entry : 
+06/22/2016 12:33:17
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/22/2016 12:34:19
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/22/2016 12:36:51
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/22/2016 12:37:23
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/22/2016 12:41:08
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:1470000365 - UoM specified is not assigned to item in row 2
+__________________________
+
+Log Entry : 
+06/22/2016 12:56:17
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:1470000365 - UoM specified is not assigned to item in row 1
+__________________________
+
+Log Entry : 
+06/22/2016 13:10:38
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:1). [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number:  [6930] attribute value is not a number;int jf(int isnull(int [here]int(string "U_UOMCODE")), int '-1', int int(string "U_UOMCODE")),U_UOMCODE = ''[string]; checkNull false
+
+__________________________
+
+Log Entry : 
+06/22/2016 13:11:58
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:1). [SAP AG][LIBODBCHDB32 DLL][HDBODBC32] General error;339 invalid number:  [6930] attribute value is not a number;int jf(int isnull(int [here]int(string "U_UOMCODE")), int '-1', int int(string "U_UOMCODE")),U_UOMCODE = ''[string]; checkNull false
+
+__________________________
+
+Log Entry : 
+06/22/2016 13:15:50
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:1470000315 - Cannot add or update document; specify a UoM code
+__________________________

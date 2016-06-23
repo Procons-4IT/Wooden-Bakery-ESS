@@ -28,7 +28,8 @@
         </script>
 
         <script type='text/javascript'>
-
+           
+          
             $(function () {
 
                 // Stick the #nav to the top of the window
@@ -80,6 +81,8 @@
                 });
 
             });
+
+          
 
         </script>
         <style type="text/css">
@@ -153,7 +156,7 @@
                                     <li class="level1-li"><a class="level1-a" href="SalesOrder.aspx">Sales Order</a></li>
                                     <li id="MnuCredit" runat="server" class="level1-li"><a class="level1-a" href="CreditMemo.aspx">Credit Memo</a></li>
                                     <li id="mnuStAcc" runat="server" class="level1-li"><a class="level1-a" href="StofAccounts.aspx">Statement of Accounts</a></li>
-                                    <li class="level1-li"><a class="level1-a" href="ChangePassword.aspx">Change Password</a></li>
+                                    <%--<li class="level1-li"><a class="level1-a" href="ChangePassword.aspx" >Change Password</a></li>--%>
                                     <li class="level1-li"><a class="level1-a" href="login.aspx">Logout</a></li>
                                 </ul>
                             </div>

@@ -6,7 +6,168 @@ UIWoodenBakery
 </name>
 </assembly>
 <members>
-<member name="F:UIWoodenBakery.CreditMemo.UpdateProgress">
+<member name="P:UIWoodenBakery.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:UIWoodenBakery.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:UIWoodenBakery.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:UIWoodenBakery.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:UIWoodenBakery.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:UIWoodenBakery.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:UIWoodenBakery.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:UIWoodenBakery.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.UpdateProgress">
+	<summary>
+UpdateProgress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.modalPopup">
+	<summary>
+modalPopup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.Update">
+	<summary>
+Update control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.lblNewTrip">
+	<summary>
+lblNewTrip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.panelhome">
+	<summary>
+panelhome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.btnhome">
+	<summary>
+btnhome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.panelnew">
+	<summary>
+panelnew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.txtoldpwd">
+	<summary>
+txtoldpwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.txtnewpwd">
+	<summary>
+txtnewpwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.txtconfirmpwd">
+	<summary>
+txtconfirmpwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.CompareValidator">
+	<summary>
+CompareValidator control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.btnsave">
+	<summary>
+btnsave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.ChangePassword.btnclose">
+	<summary>
+btnclose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.CreditMemo.UpdateProgress">
 	<summary>
 UpdateProgress control.
 </summary>
@@ -627,6 +788,270 @@ To modify move field declaration from designer file to code-behind file.
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="F:UIWoodenBakery.Login.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.Login.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.Login.TxtUid">
+	<summary>
+TxtUid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.Login.txtpwd">
+	<summary>
+txtpwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.Login.BtnSubmit">
+	<summary>
+BtnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.UpdateProgress">
+	<summary>
+UpdateProgress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.modalPopup">
+	<summary>
+modalPopup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.Update">
+	<summary>
+Update control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.Label3">
+	<summary>
+Label3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.lblNewTrip">
+	<summary>
+lblNewTrip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.panelhome">
+	<summary>
+panelhome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.btnhome">
+	<summary>
+btnhome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.PanelNewRequest">
+	<summary>
+PanelNewRequest control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.Div1">
+	<summary>
+Div1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.lblcardCode">
+	<summary>
+lblcardCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.lblCardName">
+	<summary>
+lblCardName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.txtpostDate">
+	<summary>
+txtpostDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.CalendarExtender2">
+	<summary>
+CalendarExtender2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.txtdelDate">
+	<summary>
+txtdelDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.CalendarExtender1">
+	<summary>
+CalendarExtender1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.btngo">
+	<summary>
+btngo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.Panel1">
+	<summary>
+Panel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.TabContainer1">
+	<summary>
+TabContainer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.TabPanel2">
+	<summary>
+TabPanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.Label5">
+	<summary>
+Label5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.Label11">
+	<summary>
+Label11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.TextBox3">
+	<summary>
+TextBox3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.Label6">
+	<summary>
+Label6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.Label12">
+	<summary>
+Label12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.TextBox4">
+	<summary>
+TextBox4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.btnexpexcel">
+	<summary>
+btnexpexcel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.StofAccounts.grdSalesItem">
+	<summary>
+grdSalesItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:UIWoodenBakery.SalesOrder.UpdateProgress">
 	<summary>
 UpdateProgress control.
@@ -934,6 +1359,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:UIWoodenBakery.SalesOrder.lblDocStatus">
 	<summary>
 lblDocStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UIWoodenBakery.SalesOrder.ddlItemCat">
+	<summary>
+ddlItemCat control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -1251,431 +1684,6 @@ GridView1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.UpdateProgress">
-	<summary>
-UpdateProgress control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.modalPopup">
-	<summary>
-modalPopup control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.Update">
-	<summary>
-Update control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.Label3">
-	<summary>
-Label3 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.lblNewTrip">
-	<summary>
-lblNewTrip control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.panelhome">
-	<summary>
-panelhome control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.btnhome">
-	<summary>
-btnhome control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.Label2">
-	<summary>
-Label2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.PanelNewRequest">
-	<summary>
-PanelNewRequest control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.Div1">
-	<summary>
-Div1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.lblcardCode">
-	<summary>
-lblcardCode control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.lblCardName">
-	<summary>
-lblCardName control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.txtpostDate">
-	<summary>
-txtpostDate control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.CalendarExtender2">
-	<summary>
-CalendarExtender2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.txtdelDate">
-	<summary>
-txtdelDate control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.CalendarExtender1">
-	<summary>
-CalendarExtender1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.btngo">
-	<summary>
-btngo control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.Panel1">
-	<summary>
-Panel1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.TabContainer1">
-	<summary>
-TabContainer1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.TabPanel2">
-	<summary>
-TabPanel2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.Label5">
-	<summary>
-Label5 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.Label11">
-	<summary>
-Label11 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.TextBox3">
-	<summary>
-TextBox3 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.Label6">
-	<summary>
-Label6 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.Label12">
-	<summary>
-Label12 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.TextBox4">
-	<summary>
-TextBox4 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.btnexpexcel">
-	<summary>
-btnexpexcel control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.StofAccounts.grdSalesItem">
-	<summary>
-grdSalesItem control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.Login.Head1">
-	<summary>
-Head1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.Login.Form1">
-	<summary>
-Form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.Login.TxtUid">
-	<summary>
-TxtUid control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.Login.txtpwd">
-	<summary>
-txtpwd control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.Login.BtnSubmit">
-	<summary>
-BtnSubmit control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.UpdateProgress">
-	<summary>
-UpdateProgress control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.modalPopup">
-	<summary>
-modalPopup control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.Update">
-	<summary>
-Update control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.Label3">
-	<summary>
-Label3 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.lblNewTrip">
-	<summary>
-lblNewTrip control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.panelhome">
-	<summary>
-panelhome control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.btnhome">
-	<summary>
-btnhome control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.Label2">
-	<summary>
-Label2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.panelnew">
-	<summary>
-panelnew control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.Div1">
-	<summary>
-Div1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.txtoldpwd">
-	<summary>
-txtoldpwd control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.txtnewpwd">
-	<summary>
-txtnewpwd control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.txtconfirmpwd">
-	<summary>
-txtconfirmpwd control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.CompareValidator">
-	<summary>
-CompareValidator control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.btnsave">
-	<summary>
-btnsave control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:UIWoodenBakery.ChangePassword.btnclose">
-	<summary>
-btnclose control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="P:UIWoodenBakery.My.MyWebExtension.Application">
-	<summary>
- Returns information about the current application.
- </summary>
-</member><member name="P:UIWoodenBakery.My.MyWebExtension.Computer">
-	<summary>
- Returns information about the host computer.
- </summary>
-</member><member name="P:UIWoodenBakery.My.MyWebExtension.User">
-	<summary>
- Returns information for the current Web user.
- </summary>
-</member><member name="P:UIWoodenBakery.My.MyWebExtension.Request">
-	<summary>
- Returns Request object.
- </summary>
-</member><member name="P:UIWoodenBakery.My.MyWebExtension.Response">
-	<summary>
- Returns Response object.
- </summary>
-</member><member name="P:UIWoodenBakery.My.MyWebExtension.Log">
-	<summary>
- Returns the Asp log object.
- </summary>
-</member><member name="P:UIWoodenBakery.My.MyWebExtension.WebServices">
-	<summary>
- Provides access to WebServices added to this project.
- </summary>
-</member><member name="T:UIWoodenBakery.My.MyWebExtension">
-	<summary>
- Module used to define the properties that are available in the My Namespace for Web projects.
- </summary>
-	<remarks></remarks>
 </member>
 </members>
 </doc>

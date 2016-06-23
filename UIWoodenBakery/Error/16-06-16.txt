@@ -1,0 +1,154 @@
+
+Log Entry : 
+06/16/2016 10:48:36
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:1470000365 - UoM specified is not assigned to item in row 2
+__________________________
+
+Log Entry : 
+06/16/2016 12:37:42
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:1470000363 - In the "Qty (Inventory UoM)" column, enter a whole number greater than 0
+__________________________
+
+Log Entry : 
+06/16/2016 12:38:34
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:1470000363 - In the "Qty (Inventory UoM)" column, enter a whole number greater than 0
+__________________________
+
+Log Entry : 
+06/16/2016 12:40:50
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:40:50
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:42:48
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:43:02
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:44:28
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:44:31
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:50:32
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:50:33
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:52:11
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:52:11
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Object reference not set to an instance of an object.
+__________________________
+
+Log Entry : 
+06/16/2016 12:54:18
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/16/2016 14:05:40
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:07:16
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:12:41
+Error in: http://localhost:6080/SalesOrder.aspx/GetItems. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItems. Error Message:Unknown web method GetItems.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:15:06
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:18:10
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:21:27
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:27:49
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:27:59
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:33:55
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:53:39
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 14:58:58
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 15:05:16
+Error in: http://localhost:6080/SalesOrder.aspx/GetItems. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItems. Error Message:Unknown web method GetItems.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 15:08:11
+Error in: http://localhost:6080/SalesOrder.aspx/GetItems. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItems. Error Message:Unknown web method GetItems.
+Parameter name: methodName
+__________________________
+
+Log Entry : 
+06/16/2016 15:16:43
+Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Error in: http://localhost:6080/SalesOrder.aspx/GetItemsName. Error Message:Unknown web method GetItemsName.
+Parameter name: methodName
+__________________________

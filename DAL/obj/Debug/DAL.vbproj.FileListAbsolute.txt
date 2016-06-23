@@ -82,3 +82,17 @@ C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_
 C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\DAL\obj\Debug\DAL.dll
 C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\DAL\obj\Debug\DAL.xml
 C:\Procons Projects\WoodenBakeryESS\WoodenBakery_Delivery_20151221\WoodenBakery_20160608- HANA\DAL\obj\Debug\DAL.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\bin\Debug\DAL.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\bin\Debug\DAL.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\bin\Debug\DAL.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\bin\Debug\EN.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\bin\Debug\EN.pdb
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\bin\Debug\EN.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\obj\Debug\DAL.vbproj.ResolveComReference.cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\obj\Debug\DAL.Resources.resources
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\obj\Debug\DAL.dll
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\obj\Debug\DAL.xml
+C:\Procons Projects\WoodenBakeryESS\WoodenBakery_20160615- HANA\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,90 @@
+
+Log Entry : 
+06/15/2016 11:28:39
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/15/2016 11:30:40
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/15/2016 11:33:25
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 11:33:26
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 11:33:26
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 11:33:56
+Error in: http://localhost:6080/CreditMemo.aspx. Error Message:No matching records found (ODBC -2028)
+__________________________
+
+Log Entry : 
+06/15/2016 12:51:13
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:51:13
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:51:29
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:51:29
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:51:37
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:51:37
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:51:42
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:51:42
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:52:37
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:52:37
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:52:42
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________
+
+Log Entry : 
+06/15/2016 12:52:42
+Error in: http://localhost:6080/SalesOrder.aspx. Error Message:Conversion from string "" to type 'Double' is not valid.
+__________________________

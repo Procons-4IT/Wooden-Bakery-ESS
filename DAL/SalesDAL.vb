@@ -195,16 +195,17 @@ Public Class SalesDAL
             Throw ex
         End Try
     End Function
-    Public Function GetPrice(ByVal UserCode As String, ByVal itemCode As String, ByVal UomEntry As String) As Double
+    Public Function GetPrice(ByVal PriceList As String, ByVal itemCode As String, ByVal UomEntry As String) As Double
         ComVar.SqlDS3.Clear()
         Dim dblPrice As Double = 0
         Try
-            ComVar.StrQuery = "SELECT T1.""PriceList"", T2.""ListNum"" ,T1.""Price"" FROM " & ObjDA.DBName & ".ITM9  T1 inner Join  " & ObjDA.DBName & ".OCRD T2 on T2.""ListNum"" =T1.""PriceList"" WHERE T1.""ItemCode"" ='" & itemCode.Trim() & "' and"
-            ComVar.StrQuery += " T2.""CardCode""='" & UserCode.Trim() & "' and T1.""UomEntry""='" & UomEntry.Trim() & "' "
+            ComVar.StrQuery = "SELECT T1.""PriceList"", T1.""Price"" FROM " & ObjDA.DBName & ".ITM9  T1  JOIN " & ObjDA.DBName & ".OUOM T3 ON T3.""UomEntry"" = T1.""UomEntry""" ' JOIN  " & ObjDA.DBName & ".OCRD T2 on T2.""ListNum"" =T1.""PriceList"""
+            ComVar.StrQuery += "  WHERE T1.""ItemCode"" ='" & itemCode.Trim() & "' and"
+            ComVar.StrQuery += " T1.""PriceList""=" & PriceList.Trim() & " and T3.""UomEntry""='" & UomEntry.Trim() & "' "
             ComVar.SqlDA = New OdbcDataAdapter(ComVar.StrQuery, ComVar.SqlCon)
             ComVar.SqlDA.Fill(ComVar.SqlDS3)
             If ComVar.SqlDS3.Tables(0).Rows.Count > 0 Then
-                dblPrice = ComVar.SqlDS3.Tables(0).Rows(0)(2).ToString()
+                dblPrice = ComVar.SqlDS3.Tables(0).Rows(0)(1).ToString()
                 Return dblPrice
             End If
         Catch ex As Exception

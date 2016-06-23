@@ -43,6 +43,8 @@
                 }
             }
         }
+
+       
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -85,7 +87,7 @@
                             <tr>
                                 <td>
                                     <asp:Panel ID="panelhome" runat="server" Width="100%">
-                                        <asp:ImageButton ID="btnhome" runat="server" ImageUrl="~/images/Homeicon.jpg" PostBackUrl="~/Home.aspx"
+                                        <asp:ImageButton ID="btnhome" runat="server" ImageUrl="~/images/Homeicon.jpg" 
                                             ToolTip="Home" />
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <asp:ImageButton ID="btnnew" runat="server" ImageUrl="~/images/Add.jpg" ToolTip="Add new record" />
@@ -477,6 +479,17 @@
                                                         <asp:Label ID="lblDocStatus" CssClass="txtbox" runat="server" Width="150px" Text="Open"></asp:Label>
                                                     </td>
                                                 </tr>
+                                                <tr>
+                                                    <td width="10%">Order Type
+                                                    </td>
+                                                    <td>
+                                                        <asp:DropDownList ID="ddlItemCat" CssClass="txtbox1" Width="150px" runat="server">
+                                                        </asp:DropDownList>
+                                                    </td>
+                                                    <td width="5%"></td>
+                                                    <td width="10%"></td>
+                                                    <td></td>
+                                                </tr>
                                             </table>
                                         </div>
                                         <asp:Panel ID="Panel1" runat="server" Width="100%" BorderColor="LightSteelBlue" BorderWidth="2">
@@ -520,8 +533,8 @@
                                                                             </td>
                                                                             <td>
                                                                                 <asp:TextBox ID="txtQty" CssClass="txtbox" runat="server" onkeypress="AllowNumbers(this);checkDec(this);RemoveZero(this);"
-                                                                                    onkeyup="AllowNumbers(this);checkDec(this);RemoveZero(this);" AutoCompleteType="None" MaxLength="18"  ></asp:TextBox>
-                                                                               
+                                                                                    onkeyup="AllowNumbers(this);checkDec(this);RemoveZero(this);" AutoCompleteType="None" MaxLength="18"></asp:TextBox>
+
                                                                             </td>
                                                                             <td>Price
                                                                             </td>
@@ -568,13 +581,22 @@
                                                                                                 </div>
                                                                                             </ItemTemplate>
                                                                                         </asp:TemplateField>
+                                                                                        <asp:TemplateField HeaderText="UoM">
+                                                                                            <ItemTemplate>
+                                                                                                <div align="left">
+                                                                                                    &#160;&nbsp;<asp:Label ID="lblUom" runat="server" Text='<%#Bind("U_UoMName")%>' Visible="false"></asp:Label>
+                                                                                                    <asp:DropDownList ID="ddlgUoM" CssClass="txtbox1" Width="100px" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlgUoM_SelectedIndexChanged">
+                                                                                                    </asp:DropDownList>
+                                                                                                </div>
+                                                                                            </ItemTemplate>
+                                                                                        </asp:TemplateField>
                                                                                         <asp:TemplateField HeaderText="Quantity">
                                                                                             <ItemTemplate>
                                                                                                 <div align="right" width="100px">
                                                                                                     &#160;&nbsp;<asp:TextBox ID="lblQty" runat="server" Text='<%#Bind("U_Quantity")%>'
-                                                                                                         OnTextChanged="lblQty_TextChanged" onkeypress="AllowNumbers(this);checkDec(this);RemoveZero(this);"
-                                                                                                        onkeyup="AllowNumbers(this);checkDec(this);RemoveZero(this);" ></asp:TextBox>
-                                                                                                     <asp:RequiredFieldValidator ID="vldNumber" ControlToValidate="lblQty" Display="Dynamic" ErrorMessage="Quantity is empty" ForeColor="Red"  Runat="server"/> 
+                                                                                                        OnTextChanged="lblQty_TextChanged" onkeypress="AllowNumbers(this);checkDec(this);RemoveZero(this);"
+                                                                                                        onkeyup="AllowNumbers(this);checkDec(this);RemoveZero(this);"></asp:TextBox>
+                                                                                                    <asp:RequiredFieldValidator ID="vldNumber" ControlToValidate="lblQty" Display="Dynamic" ErrorMessage="Quantity is empty" ForeColor="Red" runat="server" />
                                                                                                 </div>
                                                                                             </ItemTemplate>
                                                                                             <FooterTemplate>
@@ -595,13 +617,7 @@
                                                                                                 </div>
                                                                                             </FooterTemplate>
                                                                                         </asp:TemplateField>
-                                                                                        <asp:TemplateField HeaderText="UoM">
-                                                                                            <ItemTemplate>
-                                                                                                <div align="left">
-                                                                                                    &#160;&nbsp;<asp:Label ID="lblUom" runat="server" Text='<%#Bind("U_UoMName")%>'></asp:Label>
-                                                                                                </div>
-                                                                                            </ItemTemplate>
-                                                                                        </asp:TemplateField>
+
                                                                                         <asp:TemplateField HeaderText="No.of Days">
                                                                                             <ItemTemplate>
                                                                                                 <div align="left">
@@ -634,7 +650,7 @@
                                                         <td>
                                                             <br />
                                                             <asp:Button ID="btnAdd" CssClass="btn" Width="85px" runat="server" Text="Save" ValidationGroup="Test"
-                                                                OnClientClick="return Confirmation();" />
+                                                                OnClientClick="return Confirmation();"  />
                                                             <asp:Button ID="btncancel" CssClass="btn" Width="85px" runat="server" Text="Cancel" />
                                                         </td>
                                                     </tr>

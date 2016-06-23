@@ -29,11 +29,12 @@ Public Class CreditMemo
                     PanelNewRequest.Visible = False
                     lblcardCode.Text = Session("UserCode").ToString()
                     lblCardName.Text = Session("UserName").ToString()
-                    ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and ""U_IsReturn""='Y'", grdItems)
+                    ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and ""U_IsReturn""='Y' and T1.""SellItem""='Y'", grdItems)
                     ObjDA.BindDropdown("select ""CntctCode"",""Name""  from " & DBName & ".OCPR where ""CardCode""='" & Session("UserCode").ToString() & "' order by ""CntctCode""", "CntctCode", "Name", ddlconPerson)
                     ObjEN.CustCode = Session("UserCode").ToString()
                     ObjDA.DeleteCreditTemp(ObjEN)
                     MainGVBind(ObjEN)
+                    ' Me.Form.DefaultButton = btnSubmit.UniqueID
                 End If
             End If
         Catch ex As Exception
@@ -77,17 +78,23 @@ Public Class CreditMemo
                 txtItemCode.Text = txtpopunique.Text.Trim()
                 txtItemName.Text = txtpoptno.Text.Trim()
                 'ObjDA.BindDropdown("SELECT  T2.""UomEntry"" as ""UomEntry"", T3.""UomCode"" as ""UomCode"" FROM " & DBName & ".OITM T0 INNER JOIN " & DBName & ".OUGP T1 ON T0.""UgpEntry"" = T1.""UgpEntry"" INNER JOIN " & DBName & ".UGP1 T2 ON T1.""UgpEntry"" = T2.""UgpEntry"" INNER JOIN " & DBName & ".OUOM T3 ON T3.""UomEntry"" = T2.""UomEntry"" WHERE T0.""ItemCode""='" & txtItemCode.Text.Trim().Replace("'", "") & "'", "UomEntry", "UomCode", ddlUoM)
+                'ObjDA.BindDropdown("SELECT  T2.""UomEntry"" as ""UomEntry"", T3.""UomCode"" as ""UomCode"" FROM " & DBName & ".OITM T0 INNER JOIN " & DBName & ".OUGP T1 ON T0.""UgpEntry"" = T1.""UgpEntry"" INNER JOIN " & DBName & ".UGP1 T2 ON T1.""UgpEntry"" = T2.""UgpEntry"" INNER JOIN " & DBName & ".OUOM T3 ON T3.""UomEntry"" = T2.""UomEntry"" WHERE T0.""ItemCode""='" & txtItemCode.Text.Trim().Replace("'", "") & "'", "UomEntry", "UomCode", ddlUoM)
+                'ObjEN.ItemCode = txtItemCode.Text.Trim().Replace("'", "")
+                'lblSalesUom.Text = ObjBL.GetRetUomName(ObjEN)
+                'If ddlUoM.SelectedItem.Text <> "Manual" Then
+                '    ddlUoM.SelectedItem.Text = lblSalesUom.Text.Trim()
+                'End If
                 ObjDA.BindDropdown("SELECT  T2.""UomEntry"" as ""UomEntry"", T3.""UomCode"" as ""UomCode"" FROM " & DBName & ".OITM T0 INNER JOIN " & DBName & ".OUGP T1 ON T0.""UgpEntry"" = T1.""UgpEntry"" INNER JOIN " & DBName & ".UGP1 T2 ON T1.""UgpEntry"" = T2.""UgpEntry"" INNER JOIN " & DBName & ".OUOM T3 ON T3.""UomEntry"" = T2.""UomEntry"" WHERE T0.""ItemCode""='" & txtItemCode.Text.Trim().Replace("'", "") & "'", "UomEntry", "UomCode", ddlUoM)
                 ObjEN.ItemCode = txtItemCode.Text.Trim().Replace("'", "")
-                lblSalesUom.Text = ObjBL.GetRetUomName(ObjEN)
-                If ddlUoM.SelectedItem.Text <> "Manual" Then
-                    ddlUoM.SelectedItem.Text = lblSalesUom.Text.Trim()
+                lblSalesUom.Text = ObjBL.GetUomName(ObjEN)
+                If ddlUoM.SelectedItem.Text <> "Manual" And lblSalesUom.Text <> "" Then
+                    ddlUoM.SelectedValue = ddlUoM.Items.FindByText(lblSalesUom.Text.Trim()).Value
                 End If
-                txtPrice.Text = ObjBL.GetPrice(Session("UserCode").ToString(), txtItemCode.Text.Trim(), ddlUoM.SelectedItem.Value)
+                txtPrice.Text = ObjBL.GetPrice(Session("PriceList").ToString(), txtItemCode.Text.Trim(), ddlUoM.SelectedItem.Value)
                 txtQty.Focus()
             End If
         End If
-        ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and ""U_IsReturn""='Y'", grdItems)
+        ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and ""U_IsReturn""='Y' and T1.""SellItem""='Y'", grdItems)
     End Sub
     Private Sub btnnew_Click(ByVal sender As Object, ByVal e As ImageClickEventArgs) Handles btnnew.Click
         panelview.Visible = False
@@ -142,6 +149,7 @@ Public Class CreditMemo
                     ErrorMess(ComVar.StrMsg)
                 End If
                 Clear()
+                '  Me.Form.DefaultButton = btnSubmit.UniqueID
             End If
 
         Catch ex As Exception
@@ -219,8 +227,9 @@ Public Class CreditMemo
             oDrfDoc.DocDueDate = dtDel
             oDrfDoc.TaxDate = dtDoc
 
-            ComVar.StrQuery = "Select ""U_ItemCode"",""U_Quantity"",""U_UoMName"",IFNULL(""U_UomCode"",''),""U_Price"" from " & DBName & ".U_ORIN where ""U_CardCode""='" & lblcardCode.Text.Trim() & "' and ""U_SessionId""='" & Session("SessionId").ToString() & "'"
+            ComVar.StrQuery = "Select ""U_ItemCode"",""U_Quantity"",""U_UoMName"",IFNULL(""U_UomCode"",''),""U_Price"" from " & DBName & ".U_ORIN where ""U_CardCode""='" & lblcardCode.Text.Trim() & "' and ""U_SessionId""='" & Session("SessionId").ToString() & "' and ""U_Quantity"">0"
             oRec.DoQuery(ComVar.StrQuery.ToUpper())
+            Dim strquery As String = ComVar.StrQuery.ToUpper()
             If oRec.RecordCount > 0 Then
                 For introw As Integer = 0 To oRec.RecordCount - 1
                     If introw > 0 Then
@@ -228,7 +237,9 @@ Public Class CreditMemo
                         oDrfDoc.Lines.SetCurrentLine(introw)
                     End If
                     oDrfDoc.Lines.ItemCode = oRec.Fields.Item(0).Value
-                    oDrfDoc.Lines.Quantity = oRec.Fields.Item(1).Value
+                    If CInt(oRec.Fields.Item(1).Value) > 0 Then
+                        oDrfDoc.Lines.Quantity = oRec.Fields.Item(1).Value
+                    End If
                     oDrfDoc.Lines.UnitPrice = oRec.Fields.Item(4).Value
                     If oRec.Fields.Item(3).Value <> "" Then
                         oDrfDoc.Lines.UoMEntry = oRec.Fields.Item(3).Value
@@ -246,6 +257,7 @@ Public Class CreditMemo
                     DBConnectionDA.WriteError(ObjEN.SAPCompany.GetLastErrorDescription)
                     ComVar.StrMsg = "alert('" & ObjEN.SAPCompany.GetLastErrorDescription & "')"
                     ErrorMess(ComVar.StrMsg)
+                    Return ObjEN.SAPCompany.GetLastErrorDescription
                 Else
                     Return "Success"
                 End If
@@ -255,7 +267,7 @@ Public Class CreditMemo
             ComVar.StrMsg = "alert('" & ex.Message & "')"
             ErrorMess(ComVar.StrMsg)
         End Try
-        Return "Success"
+        ' Return "Success"
     End Function
 
     Private Sub btncancel_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btncancel.Click
@@ -393,6 +405,7 @@ Public Class CreditMemo
                 Dim lbl As Label = CType(e.Row.FindControl("lblRCurTotal"), Label)
                 lbl.Text = Math.Round(grdTotal1, 2)
             End If
+            ' Me.Form.DefaultButton = btnSubmit.UniqueID
         Catch ex As Exception
             DBConnectionDA.WriteError(ex.Message)
             ComVar.StrMsg = "alert('" & ex.Message & "')"
@@ -415,16 +428,16 @@ Public Class CreditMemo
     End Sub
     Protected Sub btngoItem_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btngoItem.Click
         If txtsearchItem.Text.Trim() <> "" Then
-            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and Upper(T1.""ItemCode"")  like '%" + txtsearchItem.Text.Trim().Replace("'", "''").ToUpper() + "%' and ""U_IsReturn""='Y' order by ""DocEntry"" desc", grdItems)
+            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and Upper(T1.""ItemCode"")  like '%" + txtsearchItem.Text.Trim().Replace("'", "''").ToUpper() + "%' and ""U_IsReturn""='Y' and T1.""SellItem""='Y' order by ""DocEntry"" desc", grdItems)
         ElseIf txtsearchItemNa.Text.Trim() <> "" Then
-            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and Upper(T1.""ItemName"")  like '%" + txtsearchItemNa.Text.Trim().Replace("'", "''").ToUpper() + "%' and ""U_IsReturn""='Y' order by ""DocEntry"" desc", grdItems)
+            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and Upper(T1.""ItemName"")  like '%" + txtsearchItemNa.Text.Trim().Replace("'", "''").ToUpper() + "%' and ""U_IsReturn""='Y' and T1.""SellItem""='Y' order by ""DocEntry"" desc", grdItems)
         Else
-            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and ""U_IsReturn""='Y'", grdItems)
+            ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and ""U_IsReturn""='Y' and T1.""SellItem""='Y'", grdItems)
         End If
         popemployee.Show()
     End Sub
     Protected Sub lbtpopnview_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles lbtpopnview.Click
-        ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and ""U_IsReturn""='Y'", grdItems)
+        ObjDA.GridviewBind("SELECT T1.""ItemCode"", T1.""ItemName"" FROM " & DBName & ".OSCN T0  INNER JOIN " & DBName & ".OITM T1 ON T0.""ItemCode"" = T1.""ItemCode"" WHERE T0.""CardCode"" ='" & Session("UserCode").ToString() & "' and ""U_IsReturn""='Y' and T1.""SellItem""='Y'", grdItems)
         popemployee.Show()
     End Sub
 
@@ -449,15 +462,15 @@ Public Class CreditMemo
                         ObjEN.ItemCode = ComVar.SqlDS2.Tables(0).Rows(intRow)("ItemCode").ToString().Trim().Replace("'", "")
                         ObjEN.ItemName = ComVar.SqlDS2.Tables(0).Rows(intRow)("ItemName").ToString().Trim().Replace("'", "")
                         ObjEN.Quantity = 0
-                        ObjEN.Price = ObjBL.GetPrice(Session("UserCode").ToString(), ObjEN.ItemCode, ComVar.SqlDS2.Tables(0).Rows(intRow)("UgpEntry").ToString().Trim().Replace("'", ""))
+                        ObjEN.Price = ObjBL.GetPrice(Session("PriceList").ToString(), ObjEN.ItemCode, ComVar.SqlDS2.Tables(0).Rows(intRow)("UgpEntry").ToString().Trim().Replace("'", ""))
                         ObjEN.FrgName = ComVar.SqlDS2.Tables(0).Rows(intRow)("FrgnName").ToString().Trim().Replace("'", "")
                         ObjEN.UomName = ComVar.SqlDS2.Tables(0).Rows(intRow)("SalUnitMsr").ToString().Trim().Replace("'", "")
                         uomentry = ComVar.SqlDS2.Tables(0).Rows(intRow)("UgpEntry").ToString().Trim().Replace("'", "")
                         If ObjEN.UomName <> "" And uomentry <> "-1" Then
                             ObjEN.UomCode = ObjBL.GetUomEntry(ObjEN)
                         Else
-                            ObjEN.UomName = "Manual"
-                            ObjEN.UomCode = "-1"
+                            ObjEN.UomName = ""
+                            ObjEN.UomCode = ""
                         End If
                         blnFlag = ObjBL.InsertCreditTemp(ObjEN)
                     Next
@@ -517,5 +530,20 @@ Public Class CreditMemo
             ComVar.StrMsg = "alert('" & ex.Message & "')"
             ErrorMess(ComVar.StrMsg)
         End Try
+    End Sub
+
+    Private Sub ddlUoM_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlUoM.SelectedIndexChanged
+        Try
+            txtPrice.Text = ObjBL.GetPrice(Session("PriceList").ToString(), txtItemCode.Text.Trim().Replace("'", ""), ddlUoM.SelectedItem.Value)
+            txtQty.Focus()
+        Catch ex As Exception
+            DBConnectionDA.WriteError(ex.Message)
+            ComVar.StrMsg = "alert('" & ex.Message & "')"
+            ErrorMess(ComVar.StrMsg)
+        End Try
+    End Sub
+
+    Private Sub btnhome_Click(sender As Object, e As ImageClickEventArgs) Handles btnhome.Click
+        Response.Redirect("Home.aspx", False)
     End Sub
 End Class

@@ -6,32 +6,32 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile>2015-12-21T12:05:58.7138923+02:00</TimeStampOfAssociatedLegacyPublishXmlFile>
-    <_PublishTargetUrl>C:\Procons Projects\WoodenBakeryESS\Delivery\WBDelivery_20160609\Publish_20160609</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Procons Projects\WoodenBakeryESS\Delivery\WBDelivery_20160622\WoodenBakery_Publish_20160622</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/AjaxControlToolkit.dll">
       <publishTime>12/14/2013 22:34:04</publishTime>
     </File>
     <File Include="bin/BL.dll">
-      <publishTime>06/09/2016 12:51:05</publishTime>
+      <publishTime>06/22/2016 13:19:48</publishTime>
     </File>
     <File Include="bin/DAL.dll">
-      <publishTime>06/09/2016 12:51:05</publishTime>
+      <publishTime>06/22/2016 13:19:48</publishTime>
     </File>
     <File Include="bin/EN.dll">
-      <publishTime>06/09/2016 12:51:04</publishTime>
+      <publishTime>06/22/2016 13:19:48</publishTime>
     </File>
     <File Include="bin/UIWoodenBakery.dll">
-      <publishTime>06/09/2016 12:51:06</publishTime>
+      <publishTime>06/22/2016 13:19:50</publishTime>
     </File>
     <File Include="bin/UIWoodenBakery.xml">
-      <publishTime>06/09/2016 12:51:06</publishTime>
+      <publishTime>06/22/2016 13:19:50</publishTime>
     </File>
     <File Include="ChangePassword.aspx">
       <publishTime>08/28/2015 14:35:47</publishTime>
     </File>
     <File Include="CreditMemo.aspx">
-      <publishTime>06/09/2016 11:55:04</publishTime>
+      <publishTime>06/22/2016 10:48:53</publishTime>
     </File>
     <File Include="DLL/AjaxControlToolkit.dll">
       <publishTime>12/14/2013 22:34:04</publishTime>
@@ -232,7 +232,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/14/2015 17:49:59</publishTime>
     </File>
     <File Include="SalesOrder.aspx">
-      <publishTime>06/09/2016 12:05:14</publishTime>
+      <publishTime>06/22/2016 10:47:16</publishTime>
     </File>
     <File Include="Scripts/Init.js">
       <publishTime>02/12/2014 12:25:00</publishTime>
@@ -283,10 +283,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/18/2015 14:49:48</publishTime>
     </File>
     <File Include="UIWB.Master">
-      <publishTime>12/18/2015 11:43:01</publishTime>
+      <publishTime>06/16/2016 14:33:00</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/09/2016 12:51:07</publishTime>
+      <publishTime>06/22/2016 13:19:51</publishTime>
     </File>
   </ItemGroup>
 </Project>

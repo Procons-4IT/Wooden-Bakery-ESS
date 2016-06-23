@@ -41,6 +41,7 @@ Public Class Login
                 If ObjEN.CustomerCode <> "" Then
                     Session("UserCode") = ObjEN.CustomerCode
                     Session("UserName") = ObjBL.GetCustName(ObjEN)
+                    Session("PriceList") = ObjBL.GetCustPriceList(ObjEN)
                     Session("SessionId") = ObjBL.SessionDetails(Session("UserCode").ToString())
                     Session("SAPCompany") = Application("DBName")
                     Response.Redirect("Home.aspx", False)
